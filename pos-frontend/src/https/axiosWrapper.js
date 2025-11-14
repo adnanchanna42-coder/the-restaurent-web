@@ -6,7 +6,7 @@ const defaultHeader = {
 };
 
 export const axiosWrapper = axios.create({
-  baseURL: "http://restaurant-pos-backend.vercel.app",
+  baseURL: "https://restaurant-pos-backend-seven.vercel.app",
   withCredentials: true,
   headers: { ...defaultHeader },
 });
